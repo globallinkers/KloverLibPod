@@ -25,7 +25,7 @@ It can support opecv 4.1 and image processing angorithm.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dev.globallinkers@gmail.com' => 'dev.thkim@gmail.com' }
-  s.source           = { :git => 'https://github.com/dev.globallinkers@gmail.com/KloverLibPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/globallinkers/KloverLibPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -41,4 +41,5 @@ It can support opecv 4.1 and image processing angorithm.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.static_framework = true
   s.dependency 'OpenCV', '~> 4.1.0'
+  s.dependency 'Realm'
 end

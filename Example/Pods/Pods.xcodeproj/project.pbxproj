@@ -32,6 +32,9 @@
 		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		EA41B460258B7E99005C9DCC /* define.h in Headers */ = {isa = PBXBuildFile; fileRef = EA41B45F258B7E99005C9DCC /* define.h */; };
+		EA41B468258B7EB3005C9DCC /* OpenCVWrapper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EA41B467258B7EB3005C9DCC /* OpenCVWrapper.hpp */; };
+		EA41B46E258B7ECC005C9DCC /* trillCodeDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = EA41B46D258B7ECC005C9DCC /* trillCodeDetector.h */; };
 		F18C9C012F6095B5FB6F2D065354B47B /* KloverLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4414DEDD24D8869E251AC2B9956F00 /* KloverLib-dummy.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F26D58F5D1F4C7A7137848D0FF40D77C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DD73EC90FE5F0B75B85BEEBF940AFB /* ReplaceMe.m */; };
@@ -85,14 +88,14 @@
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5BD9EA528D32F7A917E52D79BC8807C7 /* Pods_KloverLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KloverLib_Tests.framework; path = "Pods-KloverLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD9EA528D32F7A917E52D79BC8807C7 /* Pods_KloverLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KloverLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C44C5B028B6FB5228E80E95FFF6B3CC /* Pods-KloverLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KloverLib_Example-Info.plist"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CDA69B2087293BA2CC27D1BA5D17248 /* Pods-KloverLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KloverLib_Example.modulemap"; sourceTree = "<group>"; };
-		611BC8C453CF225253A85D0B5B032454 /* Pods_KloverLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KloverLib_Example.framework; path = "Pods-KloverLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		611BC8C453CF225253A85D0B5B032454 /* Pods_KloverLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KloverLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64EBD0ACAD80FF80C9322F83AA3AE944 /* Pods-KloverLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KloverLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		663CA4A7C2008505EC7CF8218ED37ABA /* KloverLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KloverLib.framework; path = KloverLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		663CA4A7C2008505EC7CF8218ED37ABA /* KloverLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KloverLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		70EE8E974450439FFACB35B8314ED16D /* KloverLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KloverLib.debug.xcconfig; sourceTree = "<group>"; };
 		7493566530B96BF83CBBE207C932BA8B /* Pods-KloverLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KloverLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,12 +108,12 @@
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A980961BAED46D66F135795345A01144 /* Pods-KloverLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KloverLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ABF2E07ED83C9787E22EA59EE778C972 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		ACAFC07BD453AA313A706DCBCC22738D /* KloverLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KloverLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABF2E07ED83C9787E22EA59EE778C972 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		ACAFC07BD453AA313A706DCBCC22738D /* KloverLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KloverLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ADF96A299BC363406EC5FFCBBE2C84E4 /* Pods-KloverLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KloverLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		AE2BBF2244C6412366604AFB65C3CE62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AE2BBF2244C6412366604AFB65C3CE62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
@@ -122,6 +125,9 @@
 		DDA29926CC901A0440983F4F440CA9FE /* Pods-KloverLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KloverLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E6DD73EC90FE5F0B75B85BEEBF940AFB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KloverLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		EA41B45F258B7E99005C9DCC /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		EA41B467258B7EB3005C9DCC /* OpenCVWrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OpenCVWrapper.hpp; sourceTree = "<group>"; };
+		EA41B46D258B7ECC005C9DCC /* trillCodeDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trillCodeDetector.h; sourceTree = "<group>"; };
 		F0D5D669FE9BCFE21CC3652140249786 /* Pods-KloverLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KloverLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F4299618B39E6CFC4B7F5373460D79D4 /* Pods-KloverLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KloverLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
@@ -218,6 +224,9 @@
 		542FF1A633846024D7F04FC21CA56FF6 /* KloverLib */ = {
 			isa = PBXGroup;
 			children = (
+				EA41B467258B7EB3005C9DCC /* OpenCVWrapper.hpp */,
+				EA41B45F258B7E99005C9DCC /* define.h */,
+				EA41B46D258B7ECC005C9DCC /* trillCodeDetector.h */,
 				E6DD73EC90FE5F0B75B85BEEBF940AFB /* ReplaceMe.m */,
 				57542712D3D05EF43C2807479FDC31B3 /* Pod */,
 				903108BE07CC07F163673C764A0EDD59 /* Support Files */,
@@ -314,7 +323,6 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -389,6 +397,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6995EE1D2B348CB69F3B043A4E2E86B9 /* KloverLib-umbrella.h in Headers */,
+				EA41B46E258B7ECC005C9DCC /* trillCodeDetector.h in Headers */,
+				EA41B468258B7EB3005C9DCC /* OpenCVWrapper.hpp in Headers */,
+				EA41B460258B7E99005C9DCC /* define.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -917,8 +928,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

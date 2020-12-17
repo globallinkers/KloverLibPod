@@ -1,3 +1,7 @@
+#ifdef _cplusplus
+#import <opencv2/core.cpp>
+#endif
+
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
 #else
