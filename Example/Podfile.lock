@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - KloverLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - KloverLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  KloverLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  KloverLib: cc410a62ed16178ba9ffd8ad4aa9ab43b03ec5f3
+
+PODFILE CHECKSUM: f615b7a7a3481f33dd4346d5ec6e59126e76f2f8
+
+COCOAPODS: 1.10.0

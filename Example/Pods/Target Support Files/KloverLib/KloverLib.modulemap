@@ -1,0 +1,6 @@
+framework module KloverLib {
+  umbrella header "KloverLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -63,10 +63,10 @@
 		7E9AD2EFE3A420DC802015DE /* Pods_KloverLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KloverLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D06823836D4F4293A769D1 /* Pods-KloverLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KloverLib_Example.release.xcconfig"; path = "Target Support Files/Pods-KloverLib_Example/Pods-KloverLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9DFC9B437A1EED704B4D10A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9F09CF98B4335F37918031EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9DFC9B437A1EED704B4D10A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9F09CF98B4335F37918031EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A0CD51453A9440A835FA64B1 /* Pods-KloverLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KloverLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-KloverLib_Tests/Pods-KloverLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B571AE8C1B66632040F963BF /* KloverLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KloverLib.podspec; path = ../KloverLib.podspec; sourceTree = "<group>"; };
+		B571AE8C1B66632040F963BF /* KloverLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KloverLib.podspec; path = ../KloverLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				01D69DA1FDDB262EFBC6B93C /* Pods-KloverLib_Tests.debug.xcconfig */,
 				A0CD51453A9440A835FA64B1 /* Pods-KloverLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

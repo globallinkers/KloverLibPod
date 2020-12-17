@@ -1,0 +1,6 @@
+framework module Pods_KloverLib_Example {
+  umbrella header "Pods-KloverLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
